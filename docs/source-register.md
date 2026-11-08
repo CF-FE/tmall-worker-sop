@@ -44,3 +44,34 @@
 ## 七色米 ERP 与第三方 MCP 线索
 
 详见 [七色米 ERP 接入能力研究](qisemi-erp-research.md)。该专题将官方模块 API 定制、电商同步及产品内 AI 介绍，与第三方 qisemierp MCP 清单明确分层。当前未确认官方 MCP、实际接口目录、鉴权、费用及天猫商品/广告写能力；帮助中心返回 403 的情况保留为访问缺口。没有安装或连接任何组件。
+
+## V0.1 §21—22 历史原始来源
+
+本轮已对照项目原稿核对以下11项名称、链接和使用边界；**未逐网页重新打开验证当前正文、可达性或更新时间**。原稿记载访问日为2026-10-07，以下历史日期来自该稿，不当作本轮事实复核。HR 编号对应旧稿 R 编号，以免与其他版本重号。
+
+| 编号 | 历史来源 | 研究用途与限制 |
+| --- | --- | --- |
+| HR01 | [天猫2026 AI扶持商家](https://www.alibabanews.com/天貓2026加大投入用ai扶持商家增長/)（旧稿记2026-03-27） | 平台能力方向；不证明公开 API 或本店开通 |
+| HR02 | [AI与天猫双11](https://www.alibabanews.com/ai首次全面落地天貓雙11創造實質價值/)（旧稿记2025-10-16） | 搜推、素材及分析趋势；宣传效果不作收益承诺 |
+| HR03 | [千问与淘宝互通](https://www.alibabanews.com/千問app與淘寶全面互通開啟ai購物全新體驗/)（旧稿记2026-05-11） | 消费者侧购物方向；不能外推商家写权限 |
+| HR04 | [天猫2025品牌策略](https://www.alibabanews.com/天貓2025全面投入扶持優質品牌增長/)（旧稿记2025-03-28） | 品牌、新品、复购研究；不是当前权益/资格说明 |
+| HR05 | [淘宝天猫与小红书合作](https://www.alibabanews.com/淘寶天貓與小紅書深化戰略合作打造跨平台無縫購物體驗/)（旧稿记2025-05-07） | 站外至成交协同；具体产品与接口待查 |
+| HR06 | [宝尊服务介绍](https://www.baozun.com/?lang=zh_CN) | 岗位/服务分工参照；不是统一岗位标准或本项目访谈 |
+| HR07 | [QuanZhanTui机制论文](https://arxiv.org/abs/2507.02931) | 旧稿仅使用摘要；模型不等于当前广告规则。提交/接收日期本轮未复核 |
+| HR08 | [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents) | 简单工作流与自主 Agent 取舍；非电商效果验证 |
+| HR09 | [LangGraph overview](https://docs.langchain.com/oss/python/langgraph/overview) | 候选状态编排；未完成本项目选型与压测 |
+| HR10 | [百炼兼容接口](https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope) | 模型和地域差异；与上方继承阅读同一来源，不重复算独立证据 |
+| HR11 | [LiteLLM Proxy Quick Start](https://docs.litellm.ai/docs/proxy/quick_start) | 模型网关候选；不代表生产安全与权限治理已完成 |
+
+旧稿早期只读巡检优先的 MVP 已被后版范围收敛所调整，保留资料来源不表示恢复旧实施顺序。
+
+## V0.4 继承商品接口线索
+
+已对照 V0.4 原稿来源表核对，未在本轮重新读取以下官方网页或调用接口；保留为待复核线索，非本店已可调用清单。
+
+| 编号 | 来源 | 范围与验证边界 |
+| --- | --- | --- |
+| E05 | [商品描述模块信息获取](https://developer.alibaba.com/docs/api.htm?apiId=22171)，tmall.item.desc.modules.get | 商详模块/约束的读取线索，不是商详发布；目标类目、账号读取权限与返回结构待验证 |
+| E06 | [商品下架](https://developer.alibaba.com/docs/api.htm?apiId=53971)，alibaba.item.operate.downshelf | 整商品下架线索，不等于单 SKU 停售，也不证明会停广告；调用权限、适用市场、回读与异步行为待验证 |
+
+生产使用前须取得对应权限并核对最新契约；读取能力不能扩展为写授权，下架是生产变更而非普通资料查询。

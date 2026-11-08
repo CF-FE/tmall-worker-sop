@@ -16,6 +16,8 @@
 8. [资料覆盖复核与缺口](docs/coverage-review.md)
 9. [七色米 ERP 接入能力研究](docs/qisemi-erp-research.md)
 10. [研究卡模板](templates/research-card.md)
+11. [应拒绝派发的动作契约](templates/action-contract.md)
+12. [单任务移交清单](templates/task-handover.md)
 
 ## 如何使用
 
