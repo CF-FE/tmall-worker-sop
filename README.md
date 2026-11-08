@@ -14,7 +14,8 @@
 6. [待验证问题与推进顺序](docs/research-backlog.md)
 7. [综合设计细节与32类故障主题](docs/design-detail.md)
 8. [资料覆盖复核与缺口](docs/coverage-review.md)
-9. [研究卡模板](templates/research-card.md)
+9. [七色米 ERP 接入能力研究](docs/qisemi-erp-research.md)
+10. [研究卡模板](templates/research-card.md)
 
 ## 如何使用
 
