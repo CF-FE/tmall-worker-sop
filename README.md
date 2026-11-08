@@ -12,7 +12,9 @@
 4. [一手资料索引与接口核查](docs/source-register.md)
 5. [视频研究与跨平台适用性](docs/video-research.md)
 6. [待验证问题与推进顺序](docs/research-backlog.md)
-7. [研究卡模板](templates/research-card.md)
+7. [综合设计细节与32类故障主题](docs/design-detail.md)
+8. [资料覆盖复核与缺口](docs/coverage-review.md)
+9. [研究卡模板](templates/research-card.md)
 
 ## 如何使用
 
